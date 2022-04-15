@@ -1,0 +1,6 @@
+﻿<button class="bbezor-collapse @ClassActive()" @onclick=ClickCollapse>@Text</button>
+@if (Collapsed) {
+   <div class="bbezor-collapse-panel">	   
+	   @ChildContent
+   </div>
+}

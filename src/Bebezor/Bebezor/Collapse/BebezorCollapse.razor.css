@@ -1,0 +1,35 @@
+﻿.bbezor-collapse {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.bbezor-collapse-active, .bbezor-collapse:hover {
+    background-color: #ccc;
+}
+
+.bbezor-collapse:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.bbezor-collapse-active:after {
+    content: "\2796";
+}
+
+.bbezor-collapse-panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+}
