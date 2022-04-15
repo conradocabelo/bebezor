@@ -1,0 +1,19 @@
+﻿@using Bebezor.Cards
+
+@page "/marvel/home"
+
+@if (Characteres != null)
+{
+	<div class="row">
+		@foreach (var character in Characteres.data.results)
+		{
+			<div class="col-md-3">
+				<BebezorFlipCard 
+			     Title=@character.name
+			     Description=@character.description
+			     Src=@($"{character.thumbnail.path}/portrait_xlarge.{character.thumbnail.extension}")>
+				</BebezorFlipCard>
+			</div>
+		}
+	</div>
+}

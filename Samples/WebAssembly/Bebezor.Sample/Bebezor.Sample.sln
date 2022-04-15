@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bebezor.Sample", "Bebezor.Sample.csproj", "{7B86DA63-368F-45B2-82E3-04D204F1FD62}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bebezor", "..\..\..\src\Bebezor\Bebezor\Bebezor.csproj", "{01FDE057-6208-48F2-9104-6D0F0AA16A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bebezor.App", "..\..\ServerHosted\Bebezor.App\Bebezor.App.csproj", "{BB4EC844-968E-47D5-B685-036A947AE1D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B86DA63-368F-45B2-82E3-04D204F1FD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B86DA63-368F-45B2-82E3-04D204F1FD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B86DA63-368F-45B2-82E3-04D204F1FD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B86DA63-368F-45B2-82E3-04D204F1FD62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{01FDE057-6208-48F2-9104-6D0F0AA16A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01FDE057-6208-48F2-9104-6D0F0AA16A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01FDE057-6208-48F2-9104-6D0F0AA16A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01FDE057-6208-48F2-9104-6D0F0AA16A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4EC844-968E-47D5-B685-036A947AE1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4EC844-968E-47D5-B685-036A947AE1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4EC844-968E-47D5-B685-036A947AE1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4EC844-968E-47D5-B685-036A947AE1D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
